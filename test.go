@@ -18,7 +18,7 @@ import (
 
 // A function definition. Main is special. It is the entry point for the
 // executable program. Love it or hate it, Go uses brace brackets.
-func main() {
+func old_main() {
 	// Println outputs a line to stdout.
 	// Qualify it with the package name, fmt.
 	fmt.Println("Hello world!")
